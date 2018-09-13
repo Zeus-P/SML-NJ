@@ -12,3 +12,4 @@ fun arr n = let
             print("Sum of Array elements is "^ Int.toString(!sum)^ "\n");
             !sum
     end;
+arr 4;
