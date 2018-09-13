@@ -1,0 +1,10 @@
+fun factl n = let
+    val fact = ref 1
+    val cnt = ref n
+    in
+        while (!cnt > 1)do
+            (fact := !fact * !cnt;
+            cnt := !cnt +1
+            );
+            !fact
+    end;
