@@ -6,7 +6,7 @@ fun search n = let
     in 
         while(!s < !cnt)
         do ( let in if( Array.sub(x , !s) = !a)
-                then print ("Item Is present " ^ Int.toString(!s) ^ "\n")
+                then print ("Item "^Int.toString(n)^" Is present at " ^ Int.toString(!s) ^ "\n")
                 else
                     print " "
                 end;
@@ -15,4 +15,3 @@ fun search n = let
             !s
     end;
 search 4;
-                    
